@@ -1,0 +1,23 @@
+{
+    "name": "augmentor",
+    "title": "Augmentor",
+    "description": "A machine that has a chance to upgrade the quality of any item",
+
+    "version": "1.0.1",
+    "author": "khoa",
+    "factorio_version": "2.0",
+
+    "quality_required": true,
+    "rail_bridges_required": false,
+    "space_travel_required": false,
+    "spoiling_required": false,
+    "freezing_required": false,
+    "segmented_units_required": false,
+    "expansion_shaders_required": false,
+
+    "dependencies": [
+        "base",
+        "quality",
+        "? space-age"
+    ]
+}
