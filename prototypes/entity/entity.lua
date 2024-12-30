@@ -42,7 +42,7 @@ data:extend{
         {inventory_index = defines.inventory.furnace_modules, shift = {0, 0.2}}
       },
       allowed_effects = {"consumption", "speed", "pollution", "quality"},
-      graphics_set = graphics.graphics_set,
+      graphics_set = graphics.graphics_set, 
       cant_insert_at_source_message_key = "inventory-restriction.cant-be-augmented",
       show_recipe_icon = false,
       effect_receiver = { base_effect = { quality = settings.startup["augmentor-base-quality"].value / 10}}

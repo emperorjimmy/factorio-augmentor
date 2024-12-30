@@ -92,7 +92,7 @@ local function generate_self_augmenting_recipe(item)
       unlock_results = false,
       ingredients = {{type = "item", name = item.name, amount = 1, ignored_by_stats = 1}},
       results = {{type = "item", name = item.name, amount = 1, probability = settings.startup["augmentor-result-chance"].value / 100, ignored_by_stats = 1}}, -- Will show as consumed when item is destroyed
-      energy_required = 5
+      energy_required = settings.startup["augmentor-base-crafting-speed"].value
     }
   })
 end
@@ -100,5 +100,4 @@ end
 local lib = {}
 
 lib.generate_self_augmenting_recipe = generate_self_augmenting_recipe
-
 return lib
