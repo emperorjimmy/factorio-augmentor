@@ -1,18 +1,6 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.2
-Date: 2024. 12. 31
-  Info:
-    - Fix bugs with crafting speed
-    - Make space-age truly optional, crafting ingredients and surface conditions are adjusted
 
----------------------------------------------------------------------------------------------------
-Version: 1.0.1
-Date: 2024. 12. 20
-  Info:
-    - Added result chance
-
----------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: 2024. 12. 20
+Date: 2025-04-26
   Info:
-    - Initial commit
+    - Initial fork from https://github.com/KhoaNguyen0497/factorio-augmentor
