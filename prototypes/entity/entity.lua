@@ -1,11 +1,11 @@
-local sounds = require ("__augmentor__.prototypes.entity.augmentor-sounds")
-local graphics = require("__augmentor__.prototypes.entity.augmentor-pictures")
+local sounds = require ("__Augmentor EJ Fork__.prototypes.entity.augmentor-sounds")
+local graphics = require("__Augmentor EJ Fork__.prototypes.entity.augmentor-pictures")
 local scale = graphics.scale
 data:extend{
     {
       type = "furnace",
       name = "augmentor",
-      icon = "__augmentor__/graphics/quantum-stabilizer/quantum-stabilizer-icon.png",
+      icon = "__Augmentor EJ Fork__/graphics/augmentor-ej/augmentor-ej-icon.png",
       flags = {"placeable-neutral", "placeable-player", "player-creation"},
       fast_transfer_modules_into_module_slots_only = true,
       minable = {mining_time = 0.2, result = "augmentor"},
