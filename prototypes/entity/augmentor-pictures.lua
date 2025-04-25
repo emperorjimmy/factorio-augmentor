@@ -17,7 +17,7 @@ return {
       animation = {
           layers = {
               {
-                  filename = "__augmentor__/graphics/quantum-stabilizer/quantum-stabilizer-hr-shadow.png",
+                  filename = "__Augmentor EJ Fork__/graphics/augmentor-ej/augmentor-ej-hr-shadow.png",
                   priority = "high",
                   width = 900,
                   height = 420,
@@ -39,12 +39,12 @@ return {
                   scale = 0.5 * graphics_scale,
                   stripes = {
                       {
-                          filename = "__augmentor__/graphics/quantum-stabilizer/quantum-stabilizer-hr-animation-1.png",
+                          filename = "__Augmentor EJ Fork__/graphics/augmentor-ej/augmentor-ej-hr-animation-1.png",
                           width_in_frames = 8,
                           height_in_frames = 8,
                       },
                       {
-                          filename = "__augmentor__/graphics/quantum-stabilizer/quantum-stabilizer-hr-animation-2.png",
+                          filename = "__Augmentor EJ Fork__/graphics/augmentor-ej/augmentor-ej-hr-animation-2.png",
                           width_in_frames = 8,
                           height_in_frames = 8,
                       },
@@ -67,12 +67,12 @@ return {
                   blend_mode = "additive",
                   stripes = {
                       {
-                          filename = "__augmentor__/graphics/quantum-stabilizer/quantum-stabilizer-hr-animation-emission-1.png",
+                          filename = "__Augmentor EJ Fork__/graphics/augmentor-ej/augmentor-ej-hr-animation-emission-1.png",
                           width_in_frames = 8,
                           height_in_frames = 8,
                       },
                       {
-                          filename = "__augmentor__/graphics/quantum-stabilizer/quantum-stabilizer-hr-animation-emission-2.png",
+                          filename = "__Augmentor EJ Fork__/graphics/augmentor-ej/augmentor-ej-hr-animation-emission-2.png",
                           width_in_frames = 8,
                           height_in_frames = 8,
                       },
