@@ -5,7 +5,7 @@ data:extend
   {
     type = "item",
     name = "augmentor",
-    icon = "__augmentor__/graphics/quantum-stabilizer/quantum-stabilizer-icon.png",
+    icon = "__augmentor__/graphics/augmentor-ej/augmentor-ej-icon.png",
     subgroup = "smelting-machine",
     order = "d[recycler]",
     inventory_move_sound = item_sounds.metal_large_inventory_move,
